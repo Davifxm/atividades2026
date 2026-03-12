@@ -1,0 +1,40 @@
+.secao-contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  color: white;
+}
+
+.container-contato {
+  background-color: #1a2238; 
+  padding: 40px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  border: 1px solid #30475e;
+}
+
+.titulo-contato {
+  color: #4a90e2; 
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.bloco-info {
+  margin-bottom: 25px;
+}
+
+.bloco-info h3 {
+  font-size: 1.1rem;
+  color: #8892b0; 
+  margin-bottom: 5px;
+ 
+
+}
+
+.bloco-info p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}

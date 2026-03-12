@@ -1,0 +1,21 @@
+
+.Teste{
+   
+    color: white;
+}
+
+.cont{
+    display: flex;
+    align-items: center; /* Vertical */
+    justify-content: center;
+    color: white;
+}
+.cont a{
+    font-size: 25px;
+    text-decoration: none;
+    padding: 25px;
+}
+a{
+    font-family: cursive;
+    color: white;
+}
