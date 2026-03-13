@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>contatos</title>
+</head>
+<body>
+
+<style>
+  .logo-custom {
+    width: 100px;  
+    height: 100px; 
+    object-fit: cover; 
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+</style>
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="img/unnamed-removebg-preview.png" alt="Logo" width="70" height="40" class="rounded-circle d-inline-block align-text-top">
+      Ritmo & Acordes
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="artigo.html">Artigos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contatos.html">Contatos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main class="container my-5">
+  <div class="text-center mb-5">
+    <h1 class="fw-bold display-4">Entre em contato com o Blog</h1>
+    <p class="text-muted">Dúvidas, sugestões ou parcerias? Mande uma mensagem para a nossa equipe.</p>
+  </div>
+
+  <div class="row g-5"> <div class="col-md-6">
+      <div class="bg-light p-4 rounded shadow-sm">
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label fw-bold">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome completo">
+          </div>
+          
+          <div class="mb-3">
+            <label for="email" class="form-label fw-bold">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="nome@exemplo.com">
+          </div>
+
+          <div class="mb-3">
+            <label for="assunto" class="form-label fw-bold">Assunto</label>
+            <select class="form-select" id="assunto">
+              <option selected>Selecione o assunto</option>
+              <option value="1">Sugestão de Artigo</option>
+              <option value="2">Parceria</option>
+              <option value="3">Outros</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label for="mensagem" class="form-label fw-bold">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-lg w-100 shadow-sm">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="col-md-6 d-flex flex-column justify-content-center">
+      <div class="ps-md-5">
+        <h3 class="fw-bold mb-4">Onde nos encontrar</h3>
+        
+        <div class="mb-4">
+          <h6 class="text-primary fw-bold">Endereço</h6>
+          <p class="text-muted">R. Oitenta e Dois, 30 - Jardim Paulista, Paulista - PE, 53407-000</p>
+        </div>
+
+        <div class="mb-4">
+          <h6 class="text-primary fw-bold">Email Suporte</h6>
+          <p class="text-muted">contato@ritmoeacordes.com.br</p>
+        </div>
+
+        <div class="mb-4">
+  <h6 class="text-primary fw-bold">Redes Sociais</h6>
+  <div class="d-flex gap-3 mt-2">
+    <a href="#" class="btn btn--dark shadow-none border-dark text-dark" style="transition: none;">Instagram</a>
+    <a href="#" class="btn btn--dark shadow-none border-dark text-dark" style="transition: none;">Twitter</a>
+    <a href="#" class="btn btn- shadow-none border-dark text-dark" style="transition: none;">YouTube</a>
+  </div>
+</div>
+
+        <div class="mt-4">
+           <img src="img/blog.jpeg" class="img-fluid rounded shadow" alt="Escritório do Blog">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+
+</body>
+</html>
